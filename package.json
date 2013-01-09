@@ -1,0 +1,15 @@
+{
+  "name": "testing-backbone-with-mocha",
+  "version": "0.1.0",
+  "author": "Pete Hawkins <pete@phawk.co.uk>",
+  "description": "a barebones example of testing Backbone.js code with mocha",
+  "scripts": {
+    "test": "./node_modules/mocha-phantomjs/bin/mocha-phantomjs tests/test-runner.html"
+  },
+  "dependencies": {
+    "mocha-phantomjs": "*"
+  },
+  "engines": {
+    "node": ">=0.8"
+  }
+}
